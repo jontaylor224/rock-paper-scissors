@@ -46,7 +46,7 @@ function playGame(event) {
     // console.log(computerChoice)
 
     if (playerChoice === computerChoice) {
-        resultsElement.innerText = "It's a draw.";
+        resultsElement.innerText = "You chose the same. It's a draw.";
     }
     if (playerChoice === "Rock" && computerChoice === "Scissors") {
         resultsElement.innerText = "Rock beats Scissors, YOU WIN!";
